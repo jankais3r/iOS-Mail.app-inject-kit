@@ -13,13 +13,13 @@ Demo: https://www.youtube.com/watch?v=9wiMG-oqKf0
 1. Edit the e-mail address you would like to use for password collection in `framework.php`
 2. Upload `index.php`, `framework.php` and `mydata.txt` to your server
 3. Send an e-mail containing HTML code from `e-mail.html` to the research subject
+   - Don't forget to change the `modal-username` GET parameter value to the e-mail address of the recipient
    - You can use https://putsmail.com for testing purposes
 
 
 ## Credits
 
-- Framework7: Vladimir Kharlampidi (http://www.idangero.us)
-  Framework7's CSS code was used for the login dialog styling
+- Framework7: Vladimir Kharlampidi (http://www.idangero.us/framework7/) - Framework7's CSS code was used for the login dialog styling
 
 
 ## License
@@ -29,5 +29,5 @@ MIT
 ## Notes
 
 - The code detects that the research subject has already visited the page in the past (using cookies) and it stops displaying the password prompt to reduce suspicion.
-- The e-mail address and password are submitted via GET to `framework.php`, which then saves it to the `mydata.txt` file, sends it out via e-mail to the specified e-mail address and then returns the research subject back to Mail.app using redirect to `message://dummy`.
+- The e-mail address and password are submitted via GET to `framework.php`, which then saves them to the `mydata.txt` file, sends them out via e-mail to the specified "collector" e-mail address and then returns the research subject back to Mail.app using redirect to `message://dummy`.
 - The password field has autofocus enabled. We then use focus detection to hide the login dialog once the password field loses its focus (e.g. after the subject clicks on OK and submits the password).
