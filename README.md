@@ -1,6 +1,6 @@
 # iOS 8.3 Mail.app inject kit
 
-Back in January 2015 I've stumbled upon a bug in iOS's mail client, resulting in `<meta http-equiv=refresh>` HTML tag in e-mail messages not being ignored. This bug allows remote HTML content to be loaded, replacing the content of the original e-mail message. JavaScript is disabled in this UIWebView, but it is still possible to build a functional password "collector" using simple HTML and CSS.
+Back in January 2015 I stumbled upon a bug in iOS's mail client, resulting in `<meta http-equiv=refresh>` HTML tag in e-mail messages not being ignored. This bug allows remote HTML content to be loaded, replacing the content of the original e-mail message. JavaScript is disabled in this UIWebView, but it is still possible to build a functional password "collector" using simple HTML and CSS.
 
 It was filed under Radar #19479280 back in January, but the fix was not delivered in any of the iOS updates following 8.1.2.
 Therefore I decided to publish the proof of concept code here.
