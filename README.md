@@ -10,9 +10,9 @@ Demo: https://www.youtube.com/watch?v=9wiMG-oqKf0
 
 ## Usage
 
-1) Edit the e-mail address you would like to use for password collection in `framework.php`
-2) Upload `index.php`, `framework.php` and `mydata.txt` to your server
-3) Send an e-mail containing HTML code from `e-mail.html` to the research subject
+1. Edit the e-mail address you would like to use for password collection in `framework.php`
+2. Upload `index.php`, `framework.php` and `mydata.txt` to your server
+3. Send an e-mail containing HTML code from `e-mail.html` to the research subject
    - You can use https://putsmail.com for testing purposes
 
 
