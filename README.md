@@ -31,3 +31,4 @@ MIT
 - The code detects that the research subject has already visited the page in the past (using cookies) and it stops displaying the password prompt to reduce suspicion.
 - The e-mail address and password are submitted via GET to `framework.php`, which then saves them to the `mydata.txt` file, sends them out via e-mail to the specified "collector" e-mail address and then returns the research subject back to Mail.app using redirect to `message://dummy`.
 - The password field has autofocus enabled. We then use focus detection to hide the login dialog once the password field loses its focus (e.g. after the subject clicks on OK and submits the password).
+- [Why even bother with this redirect nonsense when you can put `<form>` directly inside the HTML e-mail?](https://github.com/jansoucek/iOS-Mail.app-inject-kit/issues/1)
