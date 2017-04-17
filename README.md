@@ -8,7 +8,7 @@ Therefore I decided to publish the proof of concept code here.
 Demo: https://www.youtube.com/watch?v=9wiMG-oqKf0
 
 
-#####Update 2015-06-30:
+##### Update 2015-06-30:
 The exploit got a nice `CVE-2015-3710` sticker and was fixed by Apple in [iOS 8.4](https://support.apple.com/en-us/HT204941) and [OS X 10.10.4](https://support.apple.com/en-us/HT204942).
 Kudos to Apple for prompt response once it was published publicly.
 
