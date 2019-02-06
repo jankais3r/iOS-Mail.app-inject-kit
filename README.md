@@ -16,7 +16,7 @@ Kudos to Apple for prompt response once it was published publicly.
 
 1. Edit the e-mail address you would like to use for password collection in `framework.php`
 2. Upload `index.php`, `framework.php` and `mydata.txt` to your server
-3. Send an e-mail containing HTML code from `e-mail.html` to the research subject
+3. Send an e-mail containing HTML code from `email.html` to the research subject
    - Don't forget to change the `modal-username` GET parameter value to the e-mail address of the recipient
    - You can use https://putsmail.com for testing purposes
 
